@@ -1,0 +1,28 @@
+{
+  "name": "basic_mysql_login",
+  "version": "1.0.0",
+  "description": "Node &amp; Mysql login system",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/randeelkv/basic_mysql_login.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/randeelkv/basic_mysql_login/issues"
+  },
+  "homepage": "https://github.com/randeelkv/basic_mysql_login#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "hbs": "^4.1.2",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.12"
+  }
+}
